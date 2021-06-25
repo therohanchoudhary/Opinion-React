@@ -1,0 +1,28 @@
+.feed {
+    border-right: 1px solid var(--twitter-background);
+    flex:0.5;
+    -ms-overflow-style: none;
+    height: 100%;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+
+.feed::-webkit-scrollbar{
+    display: none;
+}
+
+.feed__header {
+    background-color: white;
+    border: 1px solid var(--twitter-background);
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100px;
+}
+
+.googleButton {
+    margin: 10px;
+    padding:15px;
+    background-color: var(--twitter-background);;
+    border-radius: 20px;
+}
